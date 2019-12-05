@@ -72,13 +72,11 @@ namespace GeneralAccess.Entities.AuthRole
         /// <summary>
         /// 最近修改人标识
         /// </summary>
-        public Nullable<int> ModifiedByUserID { get; set; }//
+        public Nullable<int> ModifiedByUserID { get; set; }
 
         /// <summary>
         /// 最近修改人登录名
         /// </summary>
         public string ModifiedByLoginName { get; set; }
-
-        //实验
     }
 }

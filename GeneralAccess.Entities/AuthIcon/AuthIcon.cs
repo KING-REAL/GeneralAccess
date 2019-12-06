@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GeneralAccess.Entities.AuthIcon
+namespace GeneralAccess.Entities
 {
     /// <summary>
     /// 图标

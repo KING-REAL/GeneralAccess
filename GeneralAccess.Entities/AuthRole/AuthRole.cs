@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GeneralAccess.Entities.AuthRole
+namespace GeneralAccess.Entities
 {
     /// <summary>
     /// 角色

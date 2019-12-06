@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
-namespace GeneralAccess.Entities.AuthUserRoleMapping
+namespace GeneralAccess.Entities
 {
     /// <summary>
     /// 用户角色关联
@@ -20,9 +19,19 @@ namespace GeneralAccess.Entities.AuthUserRoleMapping
         public int AuthUserID { get; set; }
 
         /// <summary>
+        /// 用户
+        /// </summary>
+        public AuthUser AuthUser { get; set; }
+
+        /// <summary>
         /// 角色标识
         /// </summary>
         public int AuthRoleID { get; set; }
+
+        /// <summary>
+        /// 角色
+        /// </summary>
+        public AuthRole AuthRole { get; set; }
 
         /// <summary>
         /// 创建时间

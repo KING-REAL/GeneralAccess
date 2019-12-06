@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GeneralAccess.Entities.AuthMenu
+namespace GeneralAccess.Entities
 {
     /// <summary>
     /// 菜单

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GeneralAccess.Entities.AuthRolePermissionMapping
+namespace GeneralAccess.Entities
 {
     /// <summary>
     /// 角色权限关联
@@ -20,9 +20,16 @@ namespace GeneralAccess.Entities.AuthRolePermissionMapping
         public int AuthRoleID { get; set; }
 
         /// <summary>
+        /// 角色
+        /// </summary>
+        public AuthRole AuthRole { get; set; }
+
+        /// <summary>
         /// 权限标识
         /// </summary>
         public int AuthPermissionID { get; set; }
+
+        public AuthPermission AuthPermission { get; set; }
 
         /// <summary>
         /// 创建时间

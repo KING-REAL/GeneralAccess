@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GeneralAccess.Entities.AuthUser
+namespace GeneralAccess.Entities
 {
     /// <summary>
     /// 用户

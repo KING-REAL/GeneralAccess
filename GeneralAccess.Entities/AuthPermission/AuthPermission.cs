@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GeneralAccess.Entities.Permission
+namespace GeneralAccess.Entities
 {
     /// <summary>
     /// 权限
     /// </summary>
-    public class Permission
+    public class AuthPermission
     {
         /// <summary>
         /// 标识
@@ -28,6 +28,11 @@ namespace GeneralAccess.Entities.Permission
         /// 菜单标识
         /// </summary>
         public int AuthMenuID { get; set; }
+
+        /// <summary>
+        /// 菜单
+        /// </summary>
+        public AuthMenu AuthMenu { get; set; }
 
         /// <summary>
         /// 动作代码

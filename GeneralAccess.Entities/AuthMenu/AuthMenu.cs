@@ -72,7 +72,7 @@ namespace GeneralAccess.Entities
         /// <summary>
         /// 创建人标识
         /// </summary>
-        public Nullable<int> CreatedByUserID { get; set; }
+        public Nullable<int> CreatedByUserID { get; set; }                              
 
         /// <summary>
         /// 创建人登录名

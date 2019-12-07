@@ -7,9 +7,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GeneralAccess.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/default")]
     [ApiController]
     public class DefaultController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok("hello");
+        }
     }
 }

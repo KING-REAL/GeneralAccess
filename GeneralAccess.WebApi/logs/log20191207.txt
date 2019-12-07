@@ -1,0 +1,46 @@
+2019-12-07 13:31:50.539 +08:00 [INF] Entity Framework Core 3.0.0 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-12-07 13:31:50.797 +08:00 [INF] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."ID", "a"."Color", "a"."CreatedByLoginName", "a"."CreatedByUserID", "a"."CreatedOn", "a"."Custom", "a"."Description", "a"."IconCode", "a"."IsDeleted", "a"."ModifiedByLoginName", "a"."ModifiedByUserID", "a"."ModifiedOn", "a"."Size", "a"."Status"
+FROM "AuthIcons" AS "a"
+2019-12-07 13:31:51.030 +08:00 [INF] Now listening on: https://localhost:5001
+2019-12-07 13:31:51.030 +08:00 [INF] Now listening on: http://localhost:5000
+2019-12-07 13:31:51.031 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-12-07 13:31:51.054 +08:00 [INF] Hosting environment: Development
+2019-12-07 13:31:51.055 +08:00 [INF] Content root path: E:\Test\GeneralAccess\GeneralAccess.WebApi
+2019-12-07 13:31:51.727 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/authicons  
+2019-12-07 13:31:51.749 +08:00 [INF] Request finished in 23.180400000000002ms 307 
+2019-12-07 13:31:51.792 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/authicons  
+2019-12-07 13:31:51.816 +08:00 [INF] Executing endpoint 'GeneralAccess.WebApi.Controllers.AuthIconController.Get (GeneralAccess.WebApi)'
+2019-12-07 13:31:51.835 +08:00 [INF] Route matched with {action = "Get", controller = "AuthIcon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller GeneralAccess.WebApi.Controllers.AuthIconController (GeneralAccess.WebApi).
+2019-12-07 13:31:51.866 +08:00 [INF] Entity Framework Core 3.0.0 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-12-07 13:31:51.882 +08:00 [INF] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."ID", "a"."Color", "a"."CreatedByLoginName", "a"."CreatedByUserID", "a"."CreatedOn", "a"."Custom", "a"."Description", "a"."IconCode", "a"."IsDeleted", "a"."ModifiedByLoginName", "a"."ModifiedByUserID", "a"."ModifiedOn", "a"."Size", "a"."Status"
+FROM "AuthIcons" AS "a"
+2019-12-07 13:31:51.894 +08:00 [INF] Get All AuthIcon
+2019-12-07 13:31:51.898 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[GeneralAccess.Entities.AuthIcon, GeneralAccess.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-12-07 13:31:51.917 +08:00 [INF] Executed action GeneralAccess.WebApi.Controllers.AuthIconController.Get (GeneralAccess.WebApi) in 74.9504ms
+2019-12-07 13:31:51.918 +08:00 [INF] Executed endpoint 'GeneralAccess.WebApi.Controllers.AuthIconController.Get (GeneralAccess.WebApi)'
+2019-12-07 13:31:51.920 +08:00 [INF] Request finished in 128.2073ms 200 application/json; charset=utf-8
+2019-12-07 15:37:47.840 +08:00 [INF] Entity Framework Core 3.0.0 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-12-07 15:37:48.088 +08:00 [INF] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."ID", "a"."Color", "a"."CreatedByLoginName", "a"."CreatedByUserID", "a"."CreatedOn", "a"."Custom", "a"."Description", "a"."IconCode", "a"."IsDeleted", "a"."ModifiedByLoginName", "a"."ModifiedByUserID", "a"."ModifiedOn", "a"."Size", "a"."Status"
+FROM "AuthIcons" AS "a"
+2019-12-07 15:37:48.315 +08:00 [INF] Now listening on: https://localhost:5001
+2019-12-07 15:37:48.316 +08:00 [INF] Now listening on: http://localhost:5000
+2019-12-07 15:37:48.316 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-12-07 15:37:48.317 +08:00 [INF] Hosting environment: Development
+2019-12-07 15:37:48.317 +08:00 [INF] Content root path: E:\Test\GeneralAccess\GeneralAccess.WebApi
+2019-12-07 15:37:48.818 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/authicons  
+2019-12-07 15:37:48.833 +08:00 [INF] Request finished in 17.473300000000002ms 307 
+2019-12-07 15:37:48.863 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/authicons  
+2019-12-07 15:37:48.885 +08:00 [INF] Executing endpoint 'GeneralAccess.WebApi.Controllers.AuthIconController.Get (GeneralAccess.WebApi)'
+2019-12-07 15:37:48.902 +08:00 [INF] Route matched with {action = "Get", controller = "AuthIcon"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller GeneralAccess.WebApi.Controllers.AuthIconController (GeneralAccess.WebApi).
+2019-12-07 15:37:49.059 +08:00 [INF] Entity Framework Core 3.0.0 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-12-07 15:37:49.075 +08:00 [INF] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."ID", "a"."Color", "a"."CreatedByLoginName", "a"."CreatedByUserID", "a"."CreatedOn", "a"."Custom", "a"."Description", "a"."IconCode", "a"."IsDeleted", "a"."ModifiedByLoginName", "a"."ModifiedByUserID", "a"."ModifiedOn", "a"."Size", "a"."Status"
+FROM "AuthIcons" AS "a"
+2019-12-07 15:37:49.107 +08:00 [INF] Get All AuthIcon
+2019-12-07 15:37:49.111 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[GeneralAccess.Framework.Resources.IconResources, GeneralAccess.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-12-07 15:37:49.129 +08:00 [INF] Executed action GeneralAccess.WebApi.Controllers.AuthIconController.Get (GeneralAccess.WebApi) in 222.6703ms
+2019-12-07 15:37:49.132 +08:00 [INF] Executed endpoint 'GeneralAccess.WebApi.Controllers.AuthIconController.Get (GeneralAccess.WebApi)'
+2019-12-07 15:37:49.138 +08:00 [INF] Request finished in 275.1752ms 200 application/json; charset=utf-8
